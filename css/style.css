@@ -1,17 +1,17 @@
 
 * { margin: 0; border: 0; padding: 0;}
 
-nav a {padding: 20px; display: inline-block;}
+nav  {background-color: gray; }
 
-#Inicio {vertical-align: top; margin: 30px auto 30px auto ;}
+nav a {	padding: 10px; text-decoration: none; color: white; display: inline-block;}
 
-header {background-color:  aqua; text-align: center;}
+h1 {text-align: center;}
 
-main h1 {text-align: center;}
+section figure {width: 60%;	margin-top: 10px; margin-bottom: 10px;border: 1px solid blue;}
+
+section figure img {width: 46%; margin: 10px auto 10px auto; }
+
+header { text-align: center;}
 
 main p {text-align: center;}
-
-
-
-
 
