@@ -1,0 +1,253 @@
+<!--
+───█───▄▀█▀▀█▀▄▄───▐█──────▄▀█▀▀█▀▄▄
+──█───▀─▐▌──▐▌─▀▀──▐█─────▀─▐▌──▐▌─█▀
+─▐▌──────▀▄▄▀──────▐█▄▄──────▀▄▄▀──▐▌
+─█────────────────────▀█────────────█
+▐█─────────────────────█▌───────────█
+▐█─────────────────────█▌───────────█
+─█───────────────█▄───▄█────────────█
+─▐▌───────────────▀███▀────────────▐▌
+──█──────────▀▄───────────▄▀───────█
+───█───────────▀▄▄▄▄▄▄▄▄▄▀────────█
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto AEW</title>
+    <style type="text/css">
+			
+            * {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+</head>
+<body>
+    <header id="Inicio">
+        <!-- en esta parte ira todo el encabezado, puede ser logos, algun texto o imagen, etc-->
+        <figure>
+        <img id='img_header' src="../Proyecto-AEW/img/banner.jpg">
+        </figure>
+    </header>
+    
+    <nav>
+        <!-- aca se incluira el menu con cada titulo de cada contenido-->
+        <ul class="nav">
+            <li>
+                <a href="#Inicio">Inicio</a>
+                <a href="#Inicio">Aplicaciones de Big Data</a>
+                    <ul>
+                        <li><a href="#big_data">Big Data</a></li>
+                        <li><a href="#datawarehouse">DataWarehouse</a></li>
+                        <li><a href="#segmentacion_clientes">Segmentacion de Clientes</a></li>
+                        <li><a href="#bigdataanalitics">Big Data Analytics</a></li>
+                        <li><a href="#salud_publica">Mejorando la salud Publica</a></li>
+                        <li><a href="#analisis_predictivo">Analisis Predictivo en BIg Data</a></li>
+                        <li><a href="#optimizacion_procesos">Optimización de Procesos</a></li>
+                        <li><a href="#analisis_operaciones">Analisis de Operaciones</a></li>
+                        <li><a href="#extension_seguridad">Extension de la Seguridad</a> </li>
+                        
+                                                  
+                    </ul>
+                    <a href="#Ubicanos">Ubícanos</a>    
+            </li>
+        
+        
+        
+        </ul>    
+    </nav>
+
+    <main>
+        <!-- dentro de cada div se pondre el contenido de lo que presentamos con su respectivo formato-->
+        <h1>
+            ¿Quiénes somos?
+        </h1>
+        <p>
+            Strategy Big Data nace en 2015 formada por profesionales de reconocido prestigio que conocen el mundo empresarial y la tecnología.
+        </p>
+        <div class="contenido_1">
+            <section>
+                <figure>
+            <img src="../Proyecto-AEW/img/Persona1.png">
+            
+            <figcaption> Miguel Ángel Sicilia - Socio. Catedrático de Lenguajes y Sistemas Informáticos en la Universidad de Alcalá. 
+                Director del laboratiorio de Big Data de CIFF. 
+                Ha desarrollado su investigación en diferentes aplicaciones de semántca computacional y aprendizaje automático. 
+                Actualmente, coordina el proyecto SEMAGROW de Big Data aplicado a bases de datos semánticos y agINFRA, una infraestructura científica para agricultura y áreas afines.
+                 m.sicilia@strategybugdata.com</figcaption>
+                </figure>
+            </section>
+        </div>
+
+        <div class="contenido_2">
+            <img src="../Proyecto-AEW/img/Persona2.png">
+            <p>
+                Carlos García - Socio. Profesional con 15 años de experiencia en el campo de las telecomunicaciones, 10 de ellos en I+D dentro de los bell labs software development center. Experto en gestión y dirección de proyectos y programas internacines. Informático, cuenta entre su formación MBA por ICADE, IDD ALU, Stretch international managerial SDA Boconni, Executive leadership & Development Harvard Business School's Manage Mentor, cursa actualmente un programa de especialización Big Data en Standford. carlos.garcia@strategybigdata.com
+            </p>
+            
+        </div>
+
+        <h1 id="Big Data">
+            Aplicaciones de Big Data
+        </h1>
+        <div class="contenido_3">
+            <h2>
+                Data Warehouse
+            </h2>
+            <p>
+                Se trata de ampliar una estructura de almacenamiento de datos ya existente, aplicando las ventajas de Big Data para incrementar su valor. Integrar capacidades de Warehouse de Big Data nos permite obtener nuevos conocimientos de negocio y, al mismo tiempo, optimizar la estructura de almacenamiento de datos, facilitando la toma de decisiones.
+            </p>
+            <img src="../Proyecto-AEW/img/DataWarehouse.jpg">
+        </div>
+
+        <div class="contenido_4">
+            <h2>
+                Segmentación de los clientes
+            </h2>
+            <img src="../Proyecto-AEW/img/SegmentacionClientes.png">
+            <p>
+                Los datos se utilizan para comprender mejor a los clientes, sus comportamientos y preferencias. Gracias a las capacidades actuales del Big Data se pueden aprovechar las bases de datos para crear nuevas dimensiones en la segmentación y construir una estrategia de clientes más elaboradas. La segmentación es una herramienta esencial para la definición de la estrategia del cliente. Sin embargo, esta será impulsada por el análisis de grandes volúmenes de datos.
+            </p>
+        </div>
+
+        <div class="contenido_5" id="big_data">
+            <h2>
+                Big Data Analytics
+            </h2>
+            <p>
+                El Big Data no solo es para empresas y para instituciones públicas o grandes organizaciones. Todos podemos beneficiarnos de los datos generados de dispositivos wearables como smartwatches o pulseras. Estos dispositivos registran automáticamente datos de consumo de calorías (Fitbit), niveles de actividad y condición física (Google Fit, Apple Watch), o patrones de sueño. Aunque a nivel particular ya nos desvelan información interesante. Otro ejemplo donde la gente se beneficia del análisis del Big Data es para buscar a cupido. En el momento de las Apps de citas todas y cada una sin intervención de Big Data sería prácticamente imposible.
+            </p>
+            <img src="../Proyecto-AEW/img/BigDataAnalytics.jpg">
+        </div>
+
+        <div class="contenido_6">
+            <h2>
+                Mejorando la salud pública
+            </h2>
+            <img src="../Proyecto-AEW/img/BigDataSaludPública.jpg">
+            <p>
+                Otra área de uso de datos masivos colectivos es el de la codificación de material genético. La capacidad de procesamiento de plataformas de análisis de Big Data no permite ya descodificar cadenas enteras de ADN en cuestión de minutos y permitirá encontrar nuevos tratamientos y comprender mejor las enfermedades, sus desencadenantes y los patrones de propagación. Piense qué sucederá cuando todos los dispositivos y sensores que llevamos encima (y cada vez llevaremos más) con marcadores de nuestro cuerpo se apliquen a millones de otras personas. Los ensayos clínicos del futuro no tendrán que estar limitados a muestras pequeñas, sino que todo el mundo podrá formar parte.
+            </p>
+        </div>
+
+        <div class="contenido_7">
+            <h2>
+                Análisis predictivo en Big Data
+            </h2>
+            <p>
+                El análisis predictivo agrupa una variedad de técnicas estadísticas de modelización, aprendizaje automático y minería de datos que analizan los datos actuales e históricos reales para hacer predicciones acerca del futuro o acontecimientos no conocidos.
+            </p>
+            <img src="../Proyecto-AEW/img/BigDataAnálisisPredictivo.png">
+        </div>
+
+        <div class="contenido_8">
+            <h2>
+                Optimización de procesos
+            </h2>
+            <img src="../Proyecto-AEW/img/OptimizaciónProcesos.png">
+            <p>
+                Empresas que utilizan esta información para optimizar procesos y obtener resultados en menos tiempo, lo cual afecta el coste total también puede mejorar la eficiencia de muchas empresas en sus operaciones y, por tanto, tener un impacto positivo en su cuenta de resultados.
+            </p>
+        </div>
+
+        <div class="contenido_9">
+            <h2>
+                Análisis de operaciones
+            </h2>
+            <p>
+                El Big Data es un grupo de datos que almacena información valiosa para muchas empresas e instituciones, etc. Asegurar la máxima protección de los datos es un elemento básico, pues este tipo de ciberataques se puede producir en cualquier lado. Es por eso por lo que las empresas deben invertir en la seguridad de esos datos. También el análisis de operaciones permite en tiempo real dinamizar el plan de identificar, investigar las anomalías, modificaciones de los datos, etc., para saber el estado de los datos.
+            </p>
+            <img src="../Proyecto-AEW/img/AnálisisOperaciones.png">
+        </div>
+
+        <div class="contenido_10">
+            <h2>
+                Extensión de la seguridad/inteligencia
+            </h2>
+            <img src="../Proyecto-AEW/img/ExtensiónSeguridad.jpg">
+            <p>
+                Mecanismos para localizar anomalías y prevenir ataques. Este tipo de soluciones permite discernir entre cantidades masivas de datos (tanto internos como externos) posibles relaciones ocultas, detectar patrones de conducta y prevenir amenazas a la seguridad.
+            </p>
+        </div>
+
+        <div class="contenido_11">
+            <h1 id="Ubicanos">
+                Ubícanos
+            </h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.2095480707579!2d-77.03274697080663!3d-12.123221299463522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81895afee2d%3A0xb11f6a342337bc31!2sMalec%C3%B3n%2028%20de%20Julio%20141%2C%20Miraflores%2015074!5e0!3m2!1sen!2spe!4v1624132848194!5m2!1sen!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <!-- informacion importante sobre nuestra pagina que ira ira al pie de la pagina-->
+        <div class="contenido_12">
+            <img src="../Proyecto-AEW/img/Logo.png">
+            <p>
+                Lo que se entiende como la capacidad de un sistema automatizado de procesar una enorme cantidad de datos y extraer de ellos información de gran valor para la toma de decisiones, el control continuo de la cadena de producción y los resultados se consigue.
+            </p>
+        </div>
+
+        <div>
+            <h3>
+                Contáctanos
+            </h3>
+            +51 902 284 256
+            <br>
+            contactenos@bigdata.com
+            <img src="../Proyecto-AEW/img/email.png">
+            <img src="../Proyecto-AEW/img/facebook.png">
+            <img src="../Proyecto-AEW/img/twitter.png">
+        </div>
+    </footer>
+</body>
+</html>
