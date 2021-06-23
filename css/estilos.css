@@ -14,7 +14,7 @@
     width:581px;
     font-family:Arial, Helvetica, sans-serif;
     position: fixed;
-  
+    
  
 }
 
@@ -57,18 +57,33 @@ ul, ol {
     top:0px;
 }
 
-.contenido2{
-    border-color: aquamarine;
+#app_big_data{
+
+    background-color:#434343;
+    
+}
+.contenido_1{
+    background-color: dimgrey;
+    
 }
 
 h1{
     padding-top: 100px;
     font-size: 55px;
-}
+    text-align: center;
+    background-color: #434343;
 
+}
+#p1{
+    background-color: #434343;
+}
 h2{
     padding: 50px 40px; /* espacio arriba y abajo para que al referenciar el menu no tape el titulo */
     font-size: 40px;
+    background-color: #434343;
+}
+h3{
+    color: #fff;
 }
 
 .img_general{
@@ -90,6 +105,7 @@ figcaption{
     text-align: justify;
     padding:50px 10px;
     font: 180% sans-serif;
+    color:floralwhite;
 }
 #ubicanos{
     text-align: center;
@@ -104,12 +120,14 @@ figcaption{
 footer{
     display: flex;
     margin: 0%;
+    background-color: #272626;
 }
 .p_footer{
     display: inline-block;
     text-align: justify;
     width: 45%;
     font-size: 25px;
+    color: #fff;
  
 }
 .footer_contactenos{
