@@ -81,6 +81,7 @@ h2{
     padding: 50px 40px; /* espacio arriba y abajo para que al referenciar el menu no tape el titulo */
     font-size: 40px;
     background-color: #434343;
+    text-align: center;
 }
 h3{
     color: #fff;
